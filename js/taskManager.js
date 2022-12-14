@@ -14,6 +14,7 @@ addTask(name, description, assignedTo, dueDate) {
         dueDate: dueDate,
         status: 'TODO'
     };
+
     // Push the task to the tasks property
     this.tasks.push(task);
 }
